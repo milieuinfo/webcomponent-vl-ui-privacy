@@ -13,8 +13,13 @@
     </head>
 
 	<body is="vl-body">
-        <vl-demo-page data-vl-webcomponent="vl-privacy" data-vl-link="https://overheid.vlaanderen.be/webuniversum/v3/documentation/atoms/vl-ui-privacy">
-            <vl-demo data-vl-title="Privacy"></vl-demo>
+        <vl-demo-page data-vl-webcomponent="vl-privacy">
+            <vl-demo data-vl-title="Privacy" data-vl-no-code-preview>
+                <a is="vl-link" href="/demo/vl-privacy-demo.html">Bekijk voorbeeld</a>
+                <vl-code-preview slot="code">
+                    <vl-privacy data-vl-version="1.0" data-vl-date="15 oktober 2020"></vl-privacy>
+                </vl-code-preview>
+            </vl-demo>
         </vl-demo-page>
     </body>
 </html>

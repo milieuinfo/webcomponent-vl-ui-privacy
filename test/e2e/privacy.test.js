@@ -9,7 +9,8 @@ describe('vl-privacy', async () => {
     return vlPrivacyPage.load();
   });
 
-  it('', async () => {
-    assert.isTrue(true);
+  it('als gebruiker kan in de privacy pagina zien', async () => {
+    const page = await vlPrivacyPage.getPrivacyElement();
+    await assert.eventually.isTrue(page.isDisplayed());
   });
 });
