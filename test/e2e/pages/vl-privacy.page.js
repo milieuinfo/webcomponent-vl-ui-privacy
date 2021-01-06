@@ -7,7 +7,7 @@ class VlPrivacyPage extends Page {
   }
 
   async load() {
-    await super.load(Config.baseUrl + '/demo/vl-privacy.html');
+    await super.load(Config.baseUrl + '/demo/vl-privacy-demo.html');
   }
 
   async _getPrivacy(selector) {
