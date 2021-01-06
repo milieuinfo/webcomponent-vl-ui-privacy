@@ -3,7 +3,7 @@ const {Page, Config} = require('vl-ui-core').Test;
 
 class VlPrivacyPage extends Page {
   async getPrivacyElement() {
-    return this._getPrivacy('vl-pricacy');
+    return this._getPrivacy('vl-privacy');
   }
 
   async load() {
