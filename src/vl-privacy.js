@@ -80,7 +80,7 @@ export class VlPrivacy extends vlElement(HTMLElement) {
                                     <br/>
                                     <div is="vl-grid">
                                         <div is="vl-column" data-vl-size="4" data-vl-medium-size="6">
-                                            <vl-document>
+                                            <vl-document data-vl-href="informatiepagina-algemene-verordening-gegevensbescherming-v1_0.pdf">
                                                 <span slot="type">PDF</span>
                                                 <span slot="title">Algemene informatie over de nieuwe Privacywet</span>
                                                 <span slot="metadata">PDF - 216 kB</span>
@@ -293,6 +293,21 @@ export class VlPrivacy extends vlElement(HTMLElement) {
                                     <p>Het Departement Omgeving behoudt zich het recht voor om de privacyverklaring aan te passen aan nieuwe noden of inzichten. Er zal van wijzigingen aan de Privacyverklaring transparant melding gemaakt worden op de hoofdwebsite van het Departement Omgeving (<a is="vl-link" href="https://www.omgevingvlaanderen.be" target="_self">www.omgevingvlaanderen.be<span is="vl-icon" data-vl-icon="external" data-vl-after></span></a>) alsook op de papieren versie die op eenvoudige aanvraag verkrijgbaar is bij de Dienst Communicatie van het Departement Omgeving en via de Functionaris voor gegevensbescherming (Data Protection Officer) van het Departement Omgeving.</p>
                                     <br/>
                                     <p>Bij vragen over de Privacyverklaring of de aanpassingen eraan, kunt u terecht bij de Data Protection Officer) waarvan u de contactgegevens onderaan deze pagina terugvindt.</p>
+                                </div>
+
+                                <div id="privacy-department" is="vl-column" data-vl-size="12" data-vl-medium-size="12">
+                                    <h2 is="vl-h2">Machtigingen en protocollen</h2>
+                                    <p>Volledige lijst machtigingen en protocollen die het departement heeft afgesloten.</p>
+                                    <br/>
+                                    <div is="vl-grid">
+                                        <div is="vl-column" data-vl-size="4" data-vl-medium-size="6">
+                                            <vl-document data-vl-href="privacybeleid-op-website-dOMG- v0.2_0.docx">
+                                                <span slot="type">DOCX</span>
+                                                <span slot="title">Lijst van aangiften en machtigingen</span>
+                                                <span slot="metadata">DOCX - 43 kB</span>
+                                            </vl-document>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
