@@ -101,27 +101,6 @@ export class VlPrivacy extends vlElement(HTMLElement) {
                                     <p>Het Departement Omgeving van de Vlaamse overheid is een officieel overheidsorgaan dat als doel heeft het beleid en de handhaving van de Vlaamse overheid inzake de beleidsthema’s Ruimtelijke ordening, Leefmilieu, Natuur en Energie vorm te geven en te realiseren. Met behulp van de informatiesystemen en de methoden van het Departement Omgeving van de Vlaamse Overheid worden inventarissen gemaakt, beleidsmaatregelen uitgevoerd en informatie verstrekt aan het beleidsdomein, aan andere overheden, inspectiediensten en burgers. Het Departement Omgeving is verantwoordelijk voor de verwerking van uw persoonsgegevens die in deze verklaring worden omschreven en toegelicht. We verwerken alleen persoonsgegevens en we laten alleen persoonsgegevens verwerken als dat noodzakelijk is om de taken die ons zijn toebedeeld, te kunnen verrichten. We verwerken de gegevens altijd in overeenstemming met de bepalingen van de algemene verordening gegevensbescherming (AVG), en met de bepalingen van de federale en Vlaamse regelgeving over de bescherming van natuurlijke personen bij de verwerking van persoonsgegevens.</p>
                                 </div>
 
-                                <div is="vl-column" data-vl-size="12" data-vl-medium-size="12">
-                                    <h4 is="vl-h4">Identificatie van het Departement Omgeving</h4>
-                                    <vl-contact-card id="contact-card">
-                                        <vl-infoblock slot="info" data-vl-title="Departement Omgeving" data-vl-type="contact"></vl-infoblock>
-                                        <vl-properties slot="properties">
-                                            <dl is="vl-properties-list">
-                                            <dt is="vl-property-term">Adres</dt>
-                                            <dd is="vl-property-value">Graaf de Ferrarisgebouw<br/>Koning Albert II laan 20 (bus 8)<br/>1000 Brussel, België</dd>
-                                            <dt is="vl-property-term">Telefoon</dt>
-                                            <dd is="vl-property-value"><a is="vl-link" href="tel:02 553 80 11">02 553 80 11<span is="vl-icon" data-vl-icon="phone" data-vl-after></span></a></dd>
-                                            <dt is="vl-property-term">E-mail</dt>
-                                            <dd is="vl-property-value"><a is="vl-link" href="mailto:omgeving@vlaanderen.be">omgeving@vlaanderen.be<span is="vl-icon" data-vl-icon="mail" data-vl-after></span></a></dd>
-                                            <dt is="vl-property-term">Website</dt>
-                                            <dd is="vl-property-value"><a is="vl-link" href="http://onderwijs.vlaanderen.be" target="_blank">http://onderwijs.vlaanderen.be<span is="vl-icon" data-vl-icon="external" data-vl-after></span></a></dd>
-                                            <dt is="vl-property-term">KBO-nummer</dt>
-                                            <dd is="vl-property-value">0316.380.841 (ondernemingsnummer van de Vlaamse Overheid)</dd>
-                                            </dl>
-                                        </vl-properties>
-                                    </vl-contact-card>
-                                </div>
-
                                 <div id="privacy-declaration-information-processing-systems" is="vl-column" data-vl-size="12" data-vl-medium-size="12">
                                     <h3 is="vl-h3">Informatieverwerkende systemen van het Departement Omgeving</h3>
                                     <p>Dit onderdeel beschrijft de gegevensverwerkingen op gestructureerde wijze, hoofdzakelijk door informaticasystemen en -oplossingen (software, databanken) van het departement Omgeving.</p>
@@ -292,7 +271,7 @@ export class VlPrivacy extends vlElement(HTMLElement) {
                                     <br/>
                                     <p>Het Departement Omgeving behoudt zich het recht voor om de privacyverklaring aan te passen aan nieuwe noden of inzichten. Er zal van wijzigingen aan de Privacyverklaring transparant melding gemaakt worden op de hoofdwebsite van het Departement Omgeving (<a is="vl-link" href="https://www.omgevingvlaanderen.be" target="_self">www.omgevingvlaanderen.be<span is="vl-icon" data-vl-icon="external" data-vl-after></span></a>) alsook op de papieren versie die op eenvoudige aanvraag verkrijgbaar is bij de Dienst Communicatie van het Departement Omgeving en via de Functionaris voor gegevensbescherming (Data Protection Officer) van het Departement Omgeving.</p>
                                     <br/>
-                                    <p>Bij vragen over de Privacyverklaring of de aanpassingen eraan, kunt u terecht bij de Data Protection Officer) waarvan u de contactgegevens onderaan deze pagina terugvindt.</p>
+                                    <p>Bij vragen over de Privacyverklaring of de aanpassingen eraan, kunt u terecht bij de Data Protection Officer waarvan u de contactgegevens terugvindt via de knop 'Hulp nodig?'.</p>
                                 </div>
 
                                 <div id="privacy-department" is="vl-column" data-vl-size="12" data-vl-medium-size="12">
@@ -367,19 +346,25 @@ export class VlPrivacy extends vlElement(HTMLElement) {
         <section is="vl-region" data-vl-overlap>
             <div is="vl-layout">
                 <div is="vl-grid" data-vl-is-stacked>
-                <div is="vl-column" data-vl-size="12" data-vl-medium-size="12">
-                    <vl-contact-card id="contact-card">
-                    <vl-infoblock slot="info" data-vl-title="DPO van Departement Omgeving" data-vl-type="contact"></vl-infoblock>
-                    <vl-properties slot="properties">
-                        <dl is="vl-properties-list">
-                        <dt is="vl-property-term">Post</dt>
-                        <dd is="vl-property-value">Departement Omgeving t.a.v. Data Protection Officer (DPO)<br/>Koning Albert II laan 20 (bus 8)<br/>1000 Brussel, België</dd>
-                        <dt is="vl-property-term">E-mail</dt>
-                        <dd is="vl-property-value"><a is="vl-link" href="mailto:dpo@omgevingvlaanderen.be">dpo@omgevingvlaanderen.be<span is="vl-icon" data-vl-icon="mail" data-vl-after></span></a></dd>
-                        </dl>
-                    </vl-properties>
-                    </vl-contact-card>
-                </div>
+                    <div is="vl-column" data-vl-size="12" data-vl-medium-size="12">
+                        <vl-contact-card id="contact-card">
+                            <vl-infoblock slot="info" data-vl-title="Departement Omgeving" data-vl-type="contact"></vl-infoblock>
+                            <vl-properties slot="properties">
+                                <dl is="vl-properties-list">
+                                <dt is="vl-property-term">Adres</dt>
+                                <dd is="vl-property-value">Graaf de Ferrarisgebouw<br/>Koning Albert II laan 20 (bus 8)<br/>1000 Brussel, België</dd>
+                                <dt is="vl-property-term">Telefoon</dt>
+                                <dd is="vl-property-value"><a is="vl-link" href="tel:02 553 80 11">02 553 80 11<span is="vl-icon" data-vl-icon="phone" data-vl-after></span></a></dd>
+                                <dt is="vl-property-term">E-mail</dt>
+                                <dd is="vl-property-value"><a is="vl-link" href="mailto:omgeving@vlaanderen.be">omgeving@vlaanderen.be<span is="vl-icon" data-vl-icon="mail" data-vl-after></span></a></dd>
+                                <dt is="vl-property-term">Website</dt>
+                                <dd is="vl-property-value"><a is="vl-link" href="http://onderwijs.vlaanderen.be" target="_blank">http://onderwijs.vlaanderen.be<span is="vl-icon" data-vl-icon="external" data-vl-after></span></a></dd>
+                                <dt is="vl-property-term">KBO-nummer</dt>
+                                <dd is="vl-property-value">0316.380.841 (ondernemingsnummer van de Vlaamse Overheid)</dd>
+                                </dl>
+                            </vl-properties>
+                        </vl-contact-card>
+                    </div>
                 </div>
             </div>
         </section>
