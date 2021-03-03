@@ -20,8 +20,8 @@ import '/node_modules/vl-ui-side-navigation/dist/vl-side-navigation-all.js';
  * @extends HTMLElement
  * @mixes vlElement
  *
- * @property {boolean} data-vl-date - Attribuut wordt gebruikt om aan te geven op welke datum deze toegankelijkheidspagina opgesteld werd.
- * @property {boolean} data-vl-version - Attribuut wordt gebruikt om de toegankelijkheidspagina versie aan te geven.
+ * @property {string} [data-vl-date="3 maart 2021"] - Attribuut wordt gebruikt om aan te geven op welke datum deze pagina opgesteld werd.
+ * @property {string} [data-vl-version="1.0.0"] - Attribuut wordt gebruikt om de pagina versie aan te geven.
  *
  * @see {@link https://www.github.com/milieuinfo/webcomponent-vl-ui-privacy/releases/latest|Release notes}
  * @see {@link https://www.github.com/milieuinfo/webcomponent-vl-ui-privacy/issues|Issues}
