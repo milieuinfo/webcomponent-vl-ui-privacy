@@ -44,6 +44,9 @@ export class VlPrivacy extends vlElement(HTMLElement) {
         <vl-functional-header data-vl-title="Departement Omgeving" data-vl-sub-title="Privacy" data-vl-link="https://omgeving.vlaanderen.be"></vl-functional-header>
     `);
 
+    const version = this.dataset.vlVersion || '1.0.0';
+    const date = this.dataset.vlDate || '3 maart 2021';
+
     this._element.insertAdjacentHTML('afterend', `
         <section is="vl-region">
             <div is="vl-layout">
@@ -53,7 +56,7 @@ export class VlPrivacy extends vlElement(HTMLElement) {
                     </div>
                     <div is="vl-column" data-vl-size="10">
                         <p is="vl-introduction">
-                        <span>Versie</span> ${this.dataset.vlVersion} - ${this.dataset.vlDate}
+                        <span>Versie</span> <span id="introduction-version">${version}</span> - <span id="introduction-date">${date}</span>
                         </p>
                     </div>
 
