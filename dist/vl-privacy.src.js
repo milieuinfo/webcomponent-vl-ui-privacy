@@ -7014,7 +7014,7 @@ a.vl-vi {
                                                 </div>
 
                                                 <div is="vl-column" data-vl-size="4" data-vl-medium-size="6">
-                                                    <vl-document data-vl-href="privacybeleid-op-website-dOMG- v0.2_0.docx">
+                                                    <vl-document data-vl-href="https://cdn.milieuinfo.be/footer-assets/LATEST/docx/privacybeleid-v0.2.docx">
                                                         <span slot="type">DOCX</span>
                                                         <span slot="title">Lijst van aangiften en machtigingen</span>
                                                         <span slot="metadata">DOCX - 43 kB</span>
