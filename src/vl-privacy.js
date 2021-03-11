@@ -107,7 +107,9 @@ export class VlPrivacy extends vlElement(HTMLElement) {
 
                                                         <div is="vl-column" data-vl-size="12" data-vl-medium-size="12">
                                                             <vl-contact-card>
-                                                                <vl-infoblock slot="info" data-vl-title="Departement Omgeving" data-vl-type="contact"></vl-infoblock>
+                                                                <vl-infoblock slot="info" data-vl-type="contact">
+                                                                    <h5 slot="title">Departement Omgeving</h5>
+                                                                </vl-infoblock>
                                                                 <vl-properties slot="properties">
                                                                     <dl is="vl-properties-list">
                                                                     <dt is="vl-property-term">Adres</dt>
