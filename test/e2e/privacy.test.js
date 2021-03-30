@@ -9,6 +9,10 @@ describe('vl-privacy', async () => {
     return vlPrivacyPage.load();
   });
 
+  it('WCAG', async () => {
+    await assert.eventually.isFalse(vlPrivacyPage.hasWcagIssues());
+  });
+
   it('als gebruiker kan in de privacy pagina zien', async () => {
     const page = await vlPrivacyPage.getPrivacyElement();
     await assert.eventually.isTrue(page.isDisplayed());
